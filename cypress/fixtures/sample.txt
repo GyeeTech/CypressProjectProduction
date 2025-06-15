@@ -1,0 +1,7 @@
+This is a sample file for testing file uploads in the automation framework.
+It contains some test content that can be used to verify file upload functionality.
+
+Test data:
+- File name: sample.txt
+- File type: text/plain
+- Content: Sample text for testing purposes

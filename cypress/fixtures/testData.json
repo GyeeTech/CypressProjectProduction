@@ -1,0 +1,60 @@
+{
+  "users": {
+    "validUser": {
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "password": "Password123!",
+      "firstName": "John",
+      "lastName": "Doe",
+      "company": "Test Company",
+      "address1": "123 Test Street",
+      "address2": "Apt 456",
+      "country": "United States",
+      "state": "California",
+      "city": "Los Angeles",
+      "zipcode": "90210",
+      "mobileNumber": "5551234567"
+    },
+    "invalidUser": {
+      "name": "",
+      "email": "invalid-email",
+      "password": "123"
+    }
+  },
+  "products": {
+    "searchTerms": ["dress", "jeans", "shirt", "top"],
+    "categories": ["Women", "Men", "Kids"],
+    "brands": ["Polo", "H&M", "Madame", "Mast & Harbour"]
+  },
+  "contact": {
+    "validContact": {
+      "name": "Test User",
+      "email": "test@example.com",
+      "subject": "Test Subject",
+      "message": "This is a test message for automation testing."
+    }
+  },
+  "api": {
+    "endpoints": {
+      "productsList": "/productsList",
+      "searchProduct": "/searchProduct",
+      "verifyLogin": "/verifyLogin",
+      "createAccount": "/createAccount",
+      "getUserDetailByEmail": "/getUserDetailByEmail",
+      "deleteAccount": "/deleteAccount"
+    },
+    "validCredentials": {
+      "email": "test@example.com",
+      "password": "password123"
+    }
+  },
+  "checkout": {
+    "cardDetails": {
+      "nameOnCard": "John Doe",
+      "cardNumber": "4111111111111111",
+      "cvc": "123",
+      "expiryMonth": "12",
+      "expiryYear": "2025"
+    }
+  }
+}
